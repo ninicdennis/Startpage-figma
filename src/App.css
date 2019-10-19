@@ -1,22 +1,195 @@
-.App {
-  text-align: center;
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  
+  background: url('background.jpg'), #281D35;
+
 }
 
-.App-logo {
-  height: 40vmin;
+.time {
+  position: absolute;
+width: 231px;
+height: 72px;
+left: 850px;
+top: 143px;
+
+font-family: VT323;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 72px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.block1 {
+  position: absolute;
+  width: 494px;
+  height: 200px;
+  left: 132px;
+  top: 257px;
+  
+}
+
+.inner1 {
+  position: absolute;
+width: 600px;
+height: 200px;
+left: 3px;
+top: 0px;
+
+background: #2A3A53;
+border: 5px solid #563259;
+box-sizing: border-box;
+box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.block2 {
+  position: absolute;
+  width: 600px;
+  height: 368px;
+  left: 132px;
+  top: 472px;
+}
+
+.inner2 {
+
+  position: absolute;
+  width: 600px;
+  height: 368px;
+  left: 3px;
+  top: 10px;
+  
+  background: #2A3A53;
+  border: 5px solid #563259;
+  box-sizing: border-box;
+
+
+  box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.block3 {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  left: 1150px;
+  top: 240px;
+
+
+}
+
+.inner3 {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  left: 6px;
+  top: 16px;
+
+  background: #2A3A53;
+  border: 5px solid #563259;
+  box-sizing: border-box;
+  box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.titleCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: VT323;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+  
+  color: #AE61B5;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+article {
+
+font-family: VT323;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+
+/* identical to box height */
+
+color: #AE61B5;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linktitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.links{
+
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+  font-family: VT323;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+
 }
 
-.App-link {
-  color: #09d3ac;
+a {
+  color: #E1AEF9 !important ;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.infoBar {
+  font-family: VT323;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+
+/* identical to box height */
+
+color: #E1AEF9;
+}
+
+.infoMain {
+  margin: 10px;
+}
+
+.qotd{
+  font-family: VT323;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 10px;
+  padding: 10px;;
+  
+  /* identical to box height */
+  
+  color: #E1AEF9;
 }
